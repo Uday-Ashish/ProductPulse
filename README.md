@@ -1,6 +1,6 @@
 # Blog-Website
 
-## Run Script: npx nodemon run app
+## Run Script: ```npx nodemon run app ```
  
 Features:
 
