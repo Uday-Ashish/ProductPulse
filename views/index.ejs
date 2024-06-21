@@ -1,0 +1,49 @@
+
+<html>
+  
+  <%- include('./partials/head.ejs') %>
+  
+  
+  <body>
+
+    <header>
+      <nav class = "navbar">
+        <div class = "container">
+          <a href = "/" class = "navbar-brand">ProductPulse | <%= title %></a>
+          <div class = "navbar-nav">
+            <a href = "/">home</a>
+            <a href = "/createreview">create</a>
+            <a href = "/reviews">All Products</a>
+            <a href = "/about">about</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class = "banner">
+        <div class = "container">
+          <h1 class = "banner-title">
+            <span>ProductPulse</span> <br> Write your review today !
+          </h1>
+          <p>Final destination for storing all your Product reviews!!</p>
+          <a href="/reviews" style="background-color: #313131; color: whitesmoke; padding: 10px 20px;border-radius: 8px; text-decoration: none; border: 1px solid ; border: 2px solid;
+          border-image: linear-gradient(to right, #000, #fff, #000);
+          border-image-slice: 1; 
+          ">Explore All Products!!</a>
+
+           
+        </div>
+      </div>
+      
+      
+
+      
+    </header>
+    
+
+    <!-- footer -->
+    <%- include('./partials/footer.ejs') %>
+    <!-- end of footer -->
+    
+    
+  </body>
+</html>
