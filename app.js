@@ -8,12 +8,12 @@ require('dotenv').config()
 const app = express()
 const url2 = process.env.DB_CONNECTION_STRING;
 
-const port = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 mongoose.connect(url2)
     .then((result) => {
         console.log('db connected');
-        app.listen(port)
+        app.listen(PORT)
     })
     .catch((err) => console.log(err));
 
